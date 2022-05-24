@@ -11,9 +11,10 @@
             "/Users/egordultsev/dev/projects/scala/steve/server/target/scala-3.1.2-RC2/src_managed/main"
         ],
         "dependencies": [
-            
+            "shared"
         ],
         "classpath": [
+            "/Users/egordultsev/dev/projects/scala/steve/.bloop/shared/scala-3/classes",
             "/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.2-RC2/scala3-library_3-3.1.2-RC2.jar",
             "/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_3/3.3.11/cats-effect_3-3.3.11.jar",
             "/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-mtl_3/1.2.1/cats-mtl_3-1.2.1.jar",

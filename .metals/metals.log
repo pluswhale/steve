@@ -1040,3 +1040,423 @@ val root = project
 2022.05.24 11:20:56 INFO  time: compiled server in 0.28s
 May 24, 2022 11:42:39 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2022.05.24 11:46:18 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals6638105804521000347/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.24 11:46:19 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2022.05.24 11:46:19 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)
+2022.05.24 11:46:19 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2022.05.24 11:46:19 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2022.05.24 11:46:19 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)
+2022.05.24 11:46:19 INFO  [info] loading settings for project steve-build-build-build from metals.sbt ...
+2022.05.24 11:46:19 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project/project
+2022.05.24 11:46:20 INFO  [info] loading settings for project steve-build-build from metals.sbt ...
+2022.05.24 11:46:20 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project
+2022.05.24 11:46:21 INFO  [success] Generated .bloop/steve-build-build.json
+2022.05.24 11:46:21 INFO  [success] Total time: 1 s, completed May 24, 2022, 11:46:21 AM
+2022.05.24 11:46:21 INFO  [info] loading settings for project steve-build from metals.sbt,plugins.sbt ...
+2022.05.24 11:46:21 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project
+2022.05.24 11:46:24 INFO  [success] Generated .bloop/steve-build.json
+2022.05.24 11:46:24 INFO  [success] Total time: 1 s, completed May 24, 2022, 11:46:24 AM
+2022.05.24 11:46:24 INFO  [info] loading settings for project root from build.sbt ...
+2022.05.24 11:46:24 INFO  [info] set current project to root (in build file:/Users/egordultsev/dev/projects/scala/steve/)
+2022.05.24 11:46:25 INFO  [success] Generated .bloop/root-test.json
+2022.05.24 11:46:25 INFO  [success] Generated .bloop/root.json
+2022.05.24 11:46:25 INFO  [success] Generated .bloop/shared-test.json
+2022.05.24 11:46:25 INFO  [success] Generated .bloop/shared.json
+2022.05.24 11:46:25 INFO  [success] Generated .bloop/server-test.json
+2022.05.24 11:46:25 INFO  [success] Generated .bloop/server.json
+2022.05.24 11:46:25 INFO  [success] Generated .bloop/client-test.json
+2022.05.24 11:46:25 INFO  [success] Generated .bloop/client.json
+2022.05.24 11:46:25 INFO  [success] Total time: 1 s, completed May 24, 2022, 11:46:25 AM
+2022.05.24 11:46:25 INFO  time: ran 'sbt bloopInstall' in 7.04s
+2022.05.24 11:46:25 INFO  Disconnecting from Bloop session...
+2022.05.24 11:46:25 INFO  Shut down connection with build server.
+2022.05.24 11:46:25 INFO  Shut down connection with build server.
+2022.05.24 11:46:25 INFO  Shut down connection with build server.
+2022.05.24 11:46:25 INFO  Attempting to connect to the build server...
+2022.05.24 11:46:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:46:25 INFO  Attempting to connect to the build server...
+2022.05.24 11:46:25 INFO  Attempting to connect to the build server...
+2022.05.24 11:46:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:46:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:46:25 INFO  time: Connected to build server in 59ms
+2022.05.24 11:46:25 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 11:46:26 INFO  time: indexed workspace in 1.06s
+2022.05.24 11:49:20 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/lsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.05.24 11:49:20 INFO  logging to file /Users/egordultsev/dev/projects/scala/steve/.metals/metals.log
+2022.05.24 11:49:20 INFO  Started: Metals version 0.11.5 in workspace '/Users/egordultsev/dev/projects/scala/steve' for client Visual Studio Code 1.67.2.
+2022.05.24 11:49:21 INFO  time: initialize in 1.03s
+2022.05.24 11:49:21 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.24 11:49:22 INFO  Attempting to connect to the build server...
+2022.05.24 11:49:21 INFO  skipping build import with status 'Installed'
+2022.05.24 11:49:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:49:22 INFO  Attempting to connect to the build server...
+2022.05.24 11:49:22 INFO  Attempting to connect to the build server...
+2022.05.24 11:49:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:49:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:49:22 INFO  time: Connected to build server in 0.35s
+2022.05.24 11:49:22 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 11:49:24 INFO  time: indexed workspace in 2.19s
+2022.05.24 11:49:25 INFO  time: code lens generation in 1.75s
+2022.05.24 11:49:26 INFO  time: code lens generation in 1.41s
+2022.05.24 11:50:22 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/lsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.05.24 11:50:22 INFO  logging to file /Users/egordultsev/dev/projects/scala/steve/.metals/metals.log
+2022.05.24 11:50:22 INFO  Started: Metals version 0.11.5 in workspace '/Users/egordultsev/dev/projects/scala/steve' for client Visual Studio Code 1.67.2.
+2022.05.24 11:50:23 INFO  time: initialize in 0.96s
+2022.05.24 11:50:27 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.24 11:50:27 INFO  Attempting to connect to the build server...
+2022.05.24 11:50:27 INFO  skipping build import with status 'Installed'
+2022.05.24 11:50:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:50:27 INFO  Attempting to connect to the build server...
+2022.05.24 11:50:27 INFO  Attempting to connect to the build server...
+2022.05.24 11:50:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:50:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:50:27 INFO  time: Connected to build server in 0.37s
+2022.05.24 11:50:27 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 11:50:29 INFO  time: indexed workspace in 2.07s
+2022.05.24 11:50:30 INFO  time: code lens generation in 1.54s
+2022.05.24 11:50:31 INFO  time: code lens generation in 1.31s
+2022.05.24 11:50:57 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/lsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.05.24 11:50:58 INFO  logging to file /Users/egordultsev/dev/projects/scala/steve/.metals/metals.log
+2022.05.24 11:50:58 INFO  Started: Metals version 0.11.5 in workspace '/Users/egordultsev/dev/projects/scala/steve' for client Visual Studio Code 1.67.2.
+2022.05.24 11:50:58 INFO  time: initialize in 0.94s
+2022.05.24 11:51:02 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.24 11:51:02 INFO  Attempting to connect to the build server...
+2022.05.24 11:51:02 INFO  skipping build import with status 'Installed'
+2022.05.24 11:51:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:51:04 INFO  Attempting to connect to the build server...
+2022.05.24 11:51:04 INFO  Attempting to connect to the build server...
+2022.05.24 11:51:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:51:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:51:04 INFO  time: Connected to build server in 2.46s
+2022.05.24 11:51:04 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 11:51:05 INFO  no build target found for /Users/egordultsev/dev/projects/scala/steve/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.24 11:51:05 INFO  time: code lens generation in 1.62s
+2022.05.24 11:51:06 INFO  time: indexed workspace in 1.24s
+May 24, 2022 11:52:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fegordultsev%2Fdev%2Fprojects%2Fscala%2Fsteve%2Fbuild.sbt:7: error: ; expected but string constant found
+This build/ scalaVersion := "3.1.2-RC2"
+                            ^
+file%3A%2F%2F%2FUsers%2Fegordultsev%2Fdev%2Fprojects%2Fscala%2Fsteve%2Fbuild.sbt:7: error: ; expected but string constant found
+This build/ scalaVersion := "3.1.2-RC2"
+                            ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:360)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:364)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:378)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4108)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4324)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4324)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4279)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4277)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:203)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2022.05.24 11:52:31 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals480433113980756568/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.24 11:52:32 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2022.05.24 11:52:32 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)
+2022.05.24 11:52:32 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2022.05.24 11:52:32 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2022.05.24 11:52:32 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)
+2022.05.24 11:52:32 INFO  [info] loading settings for project steve-build-build-build from metals.sbt ...
+2022.05.24 11:52:32 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project/project
+2022.05.24 11:52:33 INFO  [info] loading settings for project steve-build-build from metals.sbt ...
+2022.05.24 11:52:33 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project
+2022.05.24 11:52:33 INFO  [success] Generated .bloop/steve-build-build.json
+2022.05.24 11:52:33 INFO  [success] Total time: 1 s, completed May 24, 2022, 11:52:34 AM
+2022.05.24 11:52:34 INFO  [info] loading settings for project steve-build from metals.sbt,plugins.sbt ...
+2022.05.24 11:52:34 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project
+2022.05.24 11:52:34 INFO  [success] Generated .bloop/steve-build.json
+2022.05.24 11:52:34 INFO  [success] Total time: 0 s, completed May 24, 2022, 11:52:35 AM
+2022.05.24 11:52:34 INFO  [error] [/Users/egordultsev/dev/projects/scala/steve/build.sbt]:1: ';' expected but string literal found.
+2022.05.24 11:52:34 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2022.05.24 11:52:35 INFO  time: ran 'sbt bloopInstall' in 3.45s
+2022.05.24 11:52:35 ERROR sbt command failed: /Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals480433113980756568/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.05.24 11:52:35 INFO  Disconnecting from Bloop session...
+2022.05.24 11:52:35 INFO  Shut down connection with build server.
+2022.05.24 11:52:35 INFO  Shut down connection with build server.
+2022.05.24 11:52:35 INFO  Shut down connection with build server.
+2022.05.24 11:52:35 INFO  Attempting to connect to the build server...
+2022.05.24 11:52:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:52:35 INFO  Attempting to connect to the build server...
+2022.05.24 11:52:35 INFO  Attempting to connect to the build server...
+2022.05.24 11:52:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:52:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:52:35 INFO  time: Connected to build server in 39ms
+2022.05.24 11:52:35 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 11:52:35 INFO  time: indexed workspace in 0.81s
+2022.05.24 11:52:55 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals17087853100617101337/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.24 11:52:55 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2022.05.24 11:52:55 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)
+2022.05.24 11:52:55 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2022.05.24 11:52:55 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2022.05.24 11:52:55 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)
+2022.05.24 11:52:55 INFO  [info] loading settings for project steve-build-build-build from metals.sbt ...
+2022.05.24 11:52:55 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project/project
+2022.05.24 11:52:56 INFO  [info] loading settings for project steve-build-build from metals.sbt ...
+2022.05.24 11:52:56 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project
+2022.05.24 11:52:56 INFO  [success] Generated .bloop/steve-build-build.json
+2022.05.24 11:52:56 INFO  [success] Total time: 1 s, completed May 24, 2022, 11:52:57 AM
+2022.05.24 11:52:56 INFO  [info] loading settings for project steve-build from metals.sbt,plugins.sbt ...
+2022.05.24 11:52:56 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project
+2022.05.24 11:52:57 INFO  [success] Generated .bloop/steve-build.json
+2022.05.24 11:52:57 INFO  [success] Total time: 0 s, completed May 24, 2022, 11:52:57 AM
+2022.05.24 11:52:57 INFO  [info] loading settings for project root from build.sbt ...
+2022.05.24 11:52:59 INFO  [info] set current project to root (in build file:/Users/egordultsev/dev/projects/scala/steve/)
+2022.05.24 11:52:59 INFO  [success] Generated .bloop/shared.json
+2022.05.24 11:52:59 INFO  [success] Generated .bloop/shared-test.json
+2022.05.24 11:52:59 INFO  [success] Generated .bloop/client-test.json
+2022.05.24 11:52:59 INFO  [success] Generated .bloop/server.json
+2022.05.24 11:52:59 INFO  [success] Generated .bloop/server-test.json
+2022.05.24 11:52:59 INFO  [success] Generated .bloop/client.json
+2022.05.24 11:52:59 INFO  [success] Generated .bloop/root.json
+2022.05.24 11:52:59 INFO  [success] Generated .bloop/root-test.json
+2022.05.24 11:52:59 INFO  [success] Total time: 0 s, completed May 24, 2022, 11:52:59 AM
+2022.05.24 11:52:59 INFO  time: ran 'sbt bloopInstall' in 4.3s
+2022.05.24 11:52:59 INFO  Disconnecting from Bloop session...
+2022.05.24 11:52:59 INFO  Shut down connection with build server.
+2022.05.24 11:52:59 INFO  Shut down connection with build server.
+2022.05.24 11:52:59 INFO  Shut down connection with build server.
+2022.05.24 11:52:59 INFO  Attempting to connect to the build server...
+2022.05.24 11:52:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:52:59 INFO  Attempting to connect to the build server...
+2022.05.24 11:52:59 INFO  Attempting to connect to the build server...
+2022.05.24 11:52:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:52:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 11:52:59 INFO  time: Connected to build server in 37ms
+2022.05.24 11:52:59 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 11:52:59 INFO  time: indexed workspace in 0.76s
+2022.05.24 11:55:40 INFO  skipping build import with status 'Installed'
+2022.05.24 12:08:43 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals3853781761853018676/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.24 12:08:44 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2022.05.24 12:08:44 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)
+2022.05.24 12:08:44 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2022.05.24 12:08:44 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2022.05.24 12:08:44 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)
+2022.05.24 12:08:44 INFO  [info] loading settings for project steve-build-build-build from metals.sbt ...
+2022.05.24 12:08:44 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project/project
+2022.05.24 12:08:45 INFO  [info] loading settings for project steve-build-build from metals.sbt ...
+2022.05.24 12:08:45 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project
+2022.05.24 12:08:45 INFO  [success] Generated .bloop/steve-build-build.json
+2022.05.24 12:08:45 INFO  [success] Total time: 1 s, completed May 24, 2022, 12:08:46 PM
+2022.05.24 12:08:45 INFO  [info] loading settings for project steve-build from metals.sbt,plugins.sbt ...
+2022.05.24 12:08:45 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project
+2022.05.24 12:08:46 INFO  [success] Generated .bloop/steve-build.json
+2022.05.24 12:08:46 INFO  [success] Total time: 0 s, completed May 24, 2022, 12:08:46 PM
+2022.05.24 12:08:46 INFO  [info] loading settings for project root from build.sbt ...
+2022.05.24 12:08:47 ERROR java.lang.RuntimeException: unknown version scheme: early-server
+2022.05.24 12:08:47 ERROR 	at scala.sys.package$.error(package.scala:30)
+2022.05.24 12:08:47 ERROR 	at sbt.internal.librarymanagement.VersionSchemes$.validateScheme(VersionSchemes.scala:36)
+2022.05.24 12:08:47 ERROR 	at sbt.Classpaths$.$anonfun$defaultProjectID$1(Defaults.scala:3334)
+2022.05.24 12:08:47 ERROR 	at sbt.internal.util.EvaluateSettings$MixedNode.evaluate0(INode.scala:228)
+2022.05.24 12:08:47 ERROR 	at sbt.internal.util.EvaluateSettings$INode.evaluate(INode.scala:170)
+2022.05.24 12:08:47 ERROR 	at sbt.internal.util.EvaluateSettings.$anonfun$submitEvaluate$1(INode.scala:87)
+2022.05.24 12:08:47 ERROR 	at sbt.internal.util.EvaluateSettings.sbt$internal$util$EvaluateSettings$$run0(INode.scala:99)
+2022.05.24 12:08:47 ERROR 	at sbt.internal.util.EvaluateSettings$$anon$3.run(INode.scala:94)
+2022.05.24 12:08:47 ERROR 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2022.05.24 12:08:47 ERROR 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2022.05.24 12:08:47 ERROR 	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.05.24 12:08:46 INFO  [error] unknown version scheme: early-server
+2022.05.24 12:08:46 INFO  [error] Use 'last' for the full log.
+2022.05.24 12:08:46 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2022.05.24 12:08:47 INFO  time: ran 'sbt bloopInstall' in 4.04s
+2022.05.24 12:08:47 ERROR sbt command failed: /Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals3853781761853018676/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.05.24 12:08:47 INFO  Disconnecting from Bloop session...
+2022.05.24 12:08:47 INFO  Shut down connection with build server.
+2022.05.24 12:08:47 INFO  Shut down connection with build server.
+2022.05.24 12:08:47 INFO  Shut down connection with build server.
+2022.05.24 12:08:47 INFO  Attempting to connect to the build server...
+2022.05.24 12:08:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 12:08:47 INFO  Attempting to connect to the build server...
+2022.05.24 12:08:47 INFO  Attempting to connect to the build server...
+2022.05.24 12:08:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 12:08:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 12:08:47 INFO  time: Connected to build server in 38ms
+2022.05.24 12:08:47 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 12:08:47 INFO  time: indexed workspace in 0.76s
+2022.05.24 12:12:07 INFO  skipping build import with status 'Dismissed'
+2022.05.24 12:12:09 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals3819245139263312815/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.24 12:12:10 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2022.05.24 12:12:10 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)
+2022.05.24 12:12:10 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2022.05.24 12:12:10 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2022.05.24 12:12:10 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)
+2022.05.24 12:12:10 INFO  [info] loading settings for project steve-build-build-build from metals.sbt ...
+2022.05.24 12:12:10 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project/project
+2022.05.24 12:12:11 INFO  [info] loading settings for project steve-build-build from metals.sbt ...
+2022.05.24 12:12:11 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project
+2022.05.24 12:12:11 INFO  [success] Generated .bloop/steve-build-build.json
+2022.05.24 12:12:11 INFO  [success] Total time: 1 s, completed May 24, 2022, 12:12:12 PM
+2022.05.24 12:12:13 INFO  [info] loading settings for project steve-build from metals.sbt,plugins.sbt ...
+2022.05.24 12:12:13 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project
+2022.05.24 12:12:17 INFO  [warn] 
+2022.05.24 12:12:17 INFO  [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+2022.05.24 12:12:17 INFO  [warn] 		com.github.sbt:sbt-ci-release:1.5.7 (sbtVersion=1.0, scalaVersion=2.12)
+2022.05.24 12:12:17 INFO  [warn] 
+2022.05.24 12:12:17 INFO  [warn] 	Note: Unresolved dependencies path:
+2022.05.24 12:12:17 INFO  [error] Couldn't run bloopGenerate for steve-build. Cause:
+2022.05.24 12:12:17 INFO  [error] Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.github.sbt:sbt-ci-release;sbtVersion=1.0;scalaVersion=2.12:1.5.7
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo1.maven.org/maven2/com/github/sbt/sbt-ci-release_2.12_1.0/1.5.7/sbt-ci-release-1.5.7.pom
+2022.05.24 12:12:17 INFO  [error]   not found: /Users/egordultsev/.ivy2/local/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.github.sbt:sbt-ci-release;sbtVersion=1.0;scalaVersion=2.12:1.5.7
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo1.maven.org/maven2/com/github/sbt/sbt-ci-release_2.12_1.0/1.5.7/sbt-ci-release-1.5.7.pom
+2022.05.24 12:12:17 INFO  [error]   not found: /Users/egordultsev/.ivy2/local/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.github.sbt:sbt-ci-release;sbtVersion=1.0;scalaVersion=2.12:1.5.7
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo1.maven.org/maven2/com/github/sbt/sbt-ci-release_2.12_1.0/1.5.7/sbt-ci-release-1.5.7.pom
+2022.05.24 12:12:17 INFO  [error]   not found: /Users/egordultsev/.ivy2/local/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.github.sbt:sbt-ci-release;sbtVersion=1.0;scalaVersion=2.12:1.5.7
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo1.maven.org/maven2/com/github/sbt/sbt-ci-release_2.12_1.0/1.5.7/sbt-ci-release-1.5.7.pom
+2022.05.24 12:12:17 INFO  [error]   not found: /Users/egordultsev/.ivy2/local/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.github.sbt:sbt-ci-release;sbtVersion=1.0;scalaVersion=2.12:1.5.7
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo1.maven.org/maven2/com/github/sbt/sbt-ci-release_2.12_1.0/1.5.7/sbt-ci-release-1.5.7.pom
+2022.05.24 12:12:17 INFO  [error]   not found: /Users/egordultsev/.ivy2/local/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.github.sbt:sbt-ci-release;sbtVersion=1.0;scalaVersion=2.12:1.5.7
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo1.maven.org/maven2/com/github/sbt/sbt-ci-release_2.12_1.0/1.5.7/sbt-ci-release-1.5.7.pom
+2022.05.24 12:12:17 INFO  [error]   not found: /Users/egordultsev/.ivy2/local/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.github.sbt:sbt-ci-release;sbtVersion=1.0;scalaVersion=2.12:1.5.7
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo1.maven.org/maven2/com/github/sbt/sbt-ci-release_2.12_1.0/1.5.7/sbt-ci-release-1.5.7.pom
+2022.05.24 12:12:17 INFO  [error]   not found: /Users/egordultsev/.ivy2/local/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.github.sbt:sbt-ci-release;sbtVersion=1.0;scalaVersion=2.12:1.5.7
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo1.maven.org/maven2/com/github/sbt/sbt-ci-release_2.12_1.0/1.5.7/sbt-ci-release-1.5.7.pom
+2022.05.24 12:12:17 INFO  [error]   not found: /Users/egordultsev/.ivy2/local/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/egordultsev/dev/projects/scala/steve/project/,steve-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.github.sbt:sbt-ci-release;sbtVersion=1.0;scalaVersion=2.12:1.5.7
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   Not found
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo1.maven.org/maven2/com/github/sbt/sbt-ci-release_2.12_1.0/1.5.7/sbt-ci-release-1.5.7.pom
+2022.05.24 12:12:17 INFO  [error]   not found: /Users/egordultsev/.ivy2/local/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:17 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)
+2022.05.24 12:12:17 INFO  [warn] Removed stale /Users/egordultsev/dev/projects/scala/steve/project/.bloop/steve-build.json
+2022.05.24 12:12:17 INFO  [success] Total time: 4 s, completed May 24, 2022, 12:12:17 PM
+2022.05.24 12:12:18 INFO  [warn] 
+2022.05.24 12:12:18 INFO  [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+2022.05.24 12:12:18 INFO  [warn] 		com.github.sbt:sbt-ci-release:1.5.7 (sbtVersion=1.0, scalaVersion=2.12)
+2022.05.24 12:12:18 INFO  [warn] 
+2022.05.24 12:12:18 INFO  [warn] 	Note: Unresolved dependencies path:
+2022.05.24 12:12:18 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading com.github.sbt:sbt-ci-release;sbtVersion=1.0;scalaVersion=2.12:1.5.7
+2022.05.24 12:12:18 INFO  [error]   Not found
+2022.05.24 12:12:18 INFO  [error]   Not found
+2022.05.24 12:12:18 INFO  [error]   not found: https://repo1.maven.org/maven2/com/github/sbt/sbt-ci-release_2.12_1.0/1.5.7/sbt-ci-release-1.5.7.pom
+2022.05.24 12:12:18 INFO  [error]   not found: /Users/egordultsev/.ivy2/local/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:18 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:18 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:18 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)
+2022.05.24 12:12:18 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)
+2022.05.24 12:12:18 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2022.05.24 12:12:18 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+2022.05.24 12:12:18 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3678)
+2022.05.24 12:12:18 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.Execute.work(Execute.scala:291)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2022.05.24 12:12:18 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+2022.05.24 12:12:18 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2022.05.24 12:12:18 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2022.05.24 12:12:18 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2022.05.24 12:12:18 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2022.05.24 12:12:18 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2022.05.24 12:12:18 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.05.24 12:12:18 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading com.github.sbt:sbt-ci-release;sbtVersion=1.0;scalaVersion=2.12:1.5.7
+2022.05.24 12:12:18 INFO  [error]   Not found
+2022.05.24 12:12:18 INFO  [error]   Not found
+2022.05.24 12:12:18 INFO  [error]   not found: https://repo1.maven.org/maven2/com/github/sbt/sbt-ci-release_2.12_1.0/1.5.7/sbt-ci-release-1.5.7.pom
+2022.05.24 12:12:18 INFO  [error]   not found: /Users/egordultsev/.ivy2/local/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:18 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:18 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.github.sbt/sbt-ci-release/scala_2.12/sbt_1.0/1.5.7/ivys/ivy.xml
+2022.05.24 12:12:18 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2022.05.24 12:12:18 INFO  time: ran 'sbt bloopInstall' in 9.18s
+2022.05.24 12:12:18 ERROR sbt command failed: /Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals3819245139263312815/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.05.24 12:12:18 INFO  Disconnecting from Bloop session...
+2022.05.24 12:12:18 INFO  Shut down connection with build server.
+2022.05.24 12:12:18 INFO  Shut down connection with build server.
+2022.05.24 12:12:18 INFO  Shut down connection with build server.
+2022.05.24 12:12:18 INFO  Attempting to connect to the build server...
+2022.05.24 12:12:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 12:12:18 INFO  Attempting to connect to the build server...
+2022.05.24 12:12:18 INFO  Attempting to connect to the build server...
+2022.05.24 12:12:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 12:12:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 12:12:18 INFO  time: Connected to build server in 41ms
+2022.05.24 12:12:18 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 12:12:18 ERROR Empty build targets. Expected at least one build target identifier.
+2022.05.24 12:12:18 ERROR Empty build targets. Expected at least one build target identifier.
+2022.05.24 12:12:18 ERROR Empty build targets. Expected at least one build target identifier.
+2022.05.24 12:12:18 ERROR Empty build targets. Expected at least one build target identifier.
+2022.05.24 12:12:18 INFO  time: indexed workspace in 0.81s
+2022.05.24 12:12:19 WARN  no build target for: /Users/egordultsev/dev/projects/scala/steve/build.sbt
+2022.05.24 12:14:44 WARN  no build target for: /Users/egordultsev/dev/projects/scala/steve/build.sbt
+2022.05.24 12:15:58 INFO  skipping build import with status 'Dismissed'
+2022.05.24 12:17:02 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/lsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.05.24 12:17:02 INFO  logging to file /Users/egordultsev/dev/projects/scala/steve/.metals/metals.log
+2022.05.24 12:17:02 INFO  Started: Metals version 0.11.5 in workspace '/Users/egordultsev/dev/projects/scala/steve' for client Visual Studio Code 1.67.2.
+2022.05.24 12:17:03 INFO  time: initialize in 0.97s
+2022.05.24 12:17:06 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.24 12:17:07 INFO  Attempting to connect to the build server...
+2022.05.24 12:17:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 12:17:07 INFO  Attempting to connect to the build server...
+2022.05.24 12:17:07 INFO  Attempting to connect to the build server...
+2022.05.24 12:17:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 12:17:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 12:17:07 INFO  time: Connected to build server in 0.41s
+2022.05.24 12:17:07 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 12:17:10 INFO  time: indexed workspace in 2.59s
+2022.05.24 12:17:10 INFO  time: code lens generation in 2.24s
