@@ -1,0 +1,1040 @@
+2022.05.24 09:49:07 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/lsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.05.24 09:49:07 INFO  logging to file /Users/egordultsev/dev/projects/scala/steve/.metals/metals.log[0m
+2022.05.24 09:49:07 INFO  Started: Metals version 0.11.5 in workspace '/Users/egordultsev/dev/projects/scala/steve' for client Visual Studio Code 1.67.2.[0m
+2022.05.24 09:49:09 INFO  time: initialize in 1.7s[0m
+2022.05.24 09:49:09 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.05.24 09:49:09 WARN  Build server is not auto-connectable.[0m
+2022.05.24 09:49:09 WARN  no build tool detected in workspace '/Users/egordultsev/dev/projects/scala/steve'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2022.05.24 09:49:41 WARN  no build target for: /Users/egordultsev/dev/projects/scala/steve/build.sbt[0m
+2022.05.24 09:49:41 WARN  no build target for: /Users/egordultsev/dev/projects/scala/steve/build.sbt[0m
+2022.05.24 09:49:49 INFO  no build target found for /Users/egordultsev/dev/projects/scala/steve/build.sbt. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.05.24 09:49:50 INFO  time: code lens generation in 8.29s[0m
+2022.05.24 09:49:54 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.6.2 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals13676823139279598746/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.05.24 09:49:54 WARN  no build target for: /Users/egordultsev/dev/projects/scala/steve/project/metals.sbt[0m
+2022.05.24 09:49:54 WARN  no build target for: /Users/egordultsev/dev/projects/scala/steve/project/project/metals.sbt[0m
+2022.05.24 09:49:55 INFO  [info] Updated file /Users/egordultsev/dev/projects/scala/steve/project/build.properties: set sbt.version to 1.6.2[0m
+2022.05.24 09:49:55 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 17.0.1)[0m
+2022.05.24 09:49:55 INFO  [info] loading settings for project steve-build-build from metals.sbt ...[0m
+2022.05.24 09:49:56 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project[0m
+2022.05.24 09:50:00 INFO  [info] loading settings for project steve-build from metals.sbt ...[0m
+2022.05.24 09:50:00 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project[0m
+2022.05.24 09:50:01 INFO  [success] Generated .bloop/steve-build.json[0m
+2022.05.24 09:50:01 INFO  [success] Total time: 1 s, completed May 24, 2022, 9:50:01 AM[0m
+2022.05.24 09:50:01 INFO  [info] loading settings for project steve from build.sbt ...[0m
+2022.05.24 09:50:01 INFO  [info] set current project to steve (in build file:/Users/egordultsev/dev/projects/scala/steve/)[0m
+2022.05.24 09:50:01 INFO  [success] Generated .bloop/steve-test.json[0m
+2022.05.24 09:50:01 INFO  [success] Generated .bloop/steve.json[0m
+2022.05.24 09:50:01 INFO  [success] Total time: 0 s, completed May 24, 2022, 9:50:01 AM[0m
+2022.05.24 09:50:01 INFO  time: ran 'sbt bloopInstall' in 7.66s[0m
+2022.05.24 09:50:01 INFO  Attempting to connect to the build server...[0m
+2022.05.24 09:50:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.05.24 09:50:12 INFO  Attempting to connect to the build server...[0m
+2022.05.24 09:50:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.05.24 09:50:12 INFO  time: Connected to build server in 10s[0m
+2022.05.24 09:50:12 INFO  Connected to Build server: Bloop v1.5.0[0m
+2022.05.24 09:50:18 INFO  time: indexed workspace in 5.95s[0m
+2022.05.24 09:50:18 INFO  skipping build import with status 'Installed'[0m
+2022.05.24 09:50:59 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals17273978707274501588/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.05.24 09:50:59 ERROR [info] [launcher] getting org.scala-sbt sbt 1.5.5  (this may take some time)...[0m
+May 24, 2022 9:51:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fegordultsev%2Fdev%2Fprojects%2Fscala%2Fsteve%2Fbuild.sbt:7: error: illegal start of simple expression
+val root = 
+           ^
+file%3A%2F%2F%2FUsers%2Fegordultsev%2Fdev%2Fprojects%2Fscala%2Fsteve%2Fbuild.sbt:7: error: illegal start of simple expression
+val root = 
+           ^
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2090)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:334)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:344)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2043)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2041)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2025)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2007)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1568)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1457)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1339)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1367)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:3265)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:3251)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3215)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3200)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4047)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4042)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:145)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4108)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4324)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4324)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4279)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4277)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:203)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+May 24, 2022 9:51:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+May 24, 2022 9:51:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14.jar ...[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.5/sbt-1.5.5.jar ...[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.5.5/main_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.5.5/logic_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.5.1/io_2.12-1.5.1.jar ...[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.5.5/actions_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.5.5/main-settings_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.5.5/run_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:54 ERROR :: loading settings :: url = jar:file:/private/var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals17273978707274501588/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.05.24 09:51:54 ERROR :: loading settings :: url = jar:file:/private/var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals17273978707274501588/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.05.24 09:51:54 ERROR :: loading settings :: url = jar:file:/private/var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals17273978707274501588/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.05.24 09:51:54 ERROR :: loading settings :: url = jar:file:/private/var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals17273978707274501588/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.05.24 09:51:54 ERROR :: loading settings :: url = jar:file:/private/var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals17273978707274501588/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.05.24 09:51:54 ERROR :: loading settings :: url = jar:file:/private/var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals17273978707274501588/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.05.24 09:51:54 ERROR :: loading settings :: url = jar:file:/private/var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals17273978707274501588/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.05.24 09:51:54 ERROR :: loading settings :: url = jar:file:/private/var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals17273978707274501588/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+2022.05.24 09:51:54 ERROR 	[SUCCESSFUL ] org.scala-sbt#io_2.12;1.5.1!io_2.12.jar (310ms)[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.5.5/command_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:54 ERROR 	[SUCCESSFUL ] org.scala-sbt#logic_2.12;1.5.5!logic_2.12.jar (340ms)[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.5.5/collections_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:54 ERROR 	[SUCCESSFUL ] org.scala-sbt#run_2.12;1.5.5!run_2.12.jar (348ms)[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.5.5/scripted-plugin_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:54 ERROR 	[SUCCESSFUL ] org.scala-sbt#scripted-plugin_2.12;1.5.5!scripted-plugin_2.12.jar (152ms)[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.5.5/zinc-lm-integration_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:54 ERROR 	[SUCCESSFUL ] org.scala-sbt#command_2.12;1.5.5!command_2.12.jar (272ms)[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.5.5/util-logging_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:54 ERROR 	[SUCCESSFUL ] org.scala-sbt#sbt;1.5.5!sbt.jar (592ms)[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.jar ...[0m
+2022.05.24 09:51:54 ERROR 	[SUCCESSFUL ] org.scala-sbt#main-settings_2.12;1.5.5!main-settings_2.12.jar (604ms)[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.3.3/launcher-interface-1.3.3.jar ...[0m
+2022.05.24 09:51:54 ERROR 	[SUCCESSFUL ] org.scala-sbt#actions_2.12;1.5.5!actions_2.12.jar (640ms)[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.5/caffeine-2.8.5.jar ...[0m
+2022.05.24 09:51:54 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-lm-integration_2.12;1.5.5!zinc-lm-integration_2.12.jar (182ms)[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.0.8/lm-coursier-shaded_2.12-2.0.8.jar ...[0m
+2022.05.24 09:51:54 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-logging_2.12;1.5.5!util-logging_2.12.jar (261ms)[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar ...[0m
+2022.05.24 09:51:54 ERROR 	[SUCCESSFUL ] org.scala-sbt#collections_2.12;1.5.5!collections_2.12.jar (602ms)[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar ...[0m
+2022.05.24 09:51:54 ERROR 	[SUCCESSFUL ] org.scala-sbt#launcher-interface;1.3.3!launcher-interface.jar (345ms)[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.11.2/log4j-slf4j-impl-2.11.2.jar ...[0m
+2022.05.24 09:51:54 ERROR 	[SUCCESSFUL ] com.github.ben-manes.caffeine#caffeine;2.8.5!caffeine.jar (336ms)[0m
+2022.05.24 09:51:54 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.5.3/librarymanagement-core_2.12-1.5.3.jar ...[0m
+2022.05.24 09:51:55 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-core_2.12;1.5.3!librarymanagement-core_2.12.jar (270ms)[0m
+2022.05.24 09:51:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.5.3/librarymanagement-ivy_2.12-1.5.3.jar ...[0m
+2022.05.24 09:51:55 ERROR 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-api;2.11.2!log4j-api.jar (419ms)[0m
+2022.05.24 09:51:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.5.7/compiler-interface-1.5.7.jar ...[0m
+2022.05.24 09:51:55 ERROR 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-slf4j-impl;2.11.2!log4j-slf4j-impl.jar (433ms)[0m
+2022.05.24 09:51:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.5.7/zinc-compile_2.12-1.5.7.jar ...[0m
+2022.05.24 09:51:55 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-interface;1.5.7!compiler-interface.jar (236ms)[0m
+2022.05.24 09:51:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.5.5/util-relation_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:55 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile_2.12;1.5.7!zinc-compile_2.12.jar (137ms)[0m
+2022.05.24 09:51:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.5.5/util-position_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:55 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-ivy_2.12;1.5.3!librarymanagement-ivy_2.12.jar (273ms)[0m
+2022.05.24 09:51:55 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.9.1/sjson-new-scalajson_2.12-0.9.1.jar ...[0m
+2022.05.24 09:51:55 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-relation_2.12;1.5.5!util-relation_2.12.jar (131ms)[0m
+2022.05.24 09:51:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.14/scala-reflect-2.12.14.jar ...[0m
+2022.05.24 09:51:55 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-position_2.12;1.5.5!util-position_2.12.jar (123ms)[0m
+2022.05.24 09:51:55 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.1/sjson-new-core_2.12-0.9.1.jar ...[0m
+2022.05.24 09:51:55 ERROR 	[SUCCESSFUL ] com.eed3si9n#sjson-new-scalajson_2.12;0.9.1!sjson-new-scalajson_2.12.jar (129ms)[0m
+2022.05.24 09:51:55 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/0.9.1/shaded-jawn-parser_2.12-0.9.1.jar ...[0m
+2022.05.24 09:51:55 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.3.0!scala-xml_2.12.jar(bundle) (1335ms)[0m
+2022.05.24 09:51:55 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.jar ...[0m
+2022.05.24 09:51:55 ERROR 	[SUCCESSFUL ] com.eed3si9n#sjson-new-core_2.12;0.9.1!sjson-new-core_2.12.jar (308ms)[0m
+2022.05.24 09:51:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.5.5/completion_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:55 ERROR 	[SUCCESSFUL ] org.scala-sbt#completion_2.12;1.5.5!completion_2.12.jar (217ms)[0m
+2022.05.24 09:51:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.5.5/task-system_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:55 ERROR 	[SUCCESSFUL ] com.eed3si9n#shaded-jawn-parser_2.12;0.9.1!shaded-jawn-parser_2.12.jar (577ms)[0m
+2022.05.24 09:51:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.5.5/tasks_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:56 ERROR 	[SUCCESSFUL ] com.eed3si9n#shaded-scalajson_2.12;1.0.0-M4!shaded-scalajson_2.12.jar (365ms)[0m
+2022.05.24 09:51:56 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.5.5/testing_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#tasks_2.12;1.5.5!tasks_2.12.jar (324ms)[0m
+2022.05.24 09:51:56 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.5.5/util-tracking_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#testing_2.12;1.5.5!testing_2.12.jar (266ms)[0m
+2022.05.24 09:51:56 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar ...[0m
+2022.05.24 09:51:56 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.14!scala-reflect.jar (991ms)[0m
+2022.05.24 09:51:56 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.5.7/zinc-classpath_2.12-1.5.7.jar ...[0m
+2022.05.24 09:51:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#task-system_2.12;1.5.5!task-system_2.12.jar (510ms)[0m
+2022.05.24 09:51:56 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.5.7/zinc-apiinfo_2.12-1.5.7.jar ...[0m
+2022.05.24 09:51:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-tracking_2.12;1.5.5!util-tracking_2.12.jar (180ms)[0m
+2022.05.24 09:51:56 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.5.7/zinc_2.12-1.5.7.jar ...[0m
+2022.05.24 09:51:56 ERROR 	[SUCCESSFUL ] org.jline#jline-terminal;3.19.0!jline-terminal.jar (187ms)[0m
+2022.05.24 09:51:56 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.5.5/util-control_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classpath_2.12;1.5.7!zinc-classpath_2.12.jar (153ms)[0m
+2022.05.24 09:51:56 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.jar ...[0m
+2022.05.24 09:51:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-control_2.12;1.5.5!util-control_2.12.jar (155ms)[0m
+2022.05.24 09:51:56 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar ...[0m
+2022.05.24 09:51:56 ERROR 	[SUCCESSFUL ] org.scala-sbt.jline#jline;2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493!jline.jar (165ms)[0m
+2022.05.24 09:51:56 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-builtins/3.19.0/jline-builtins-3.19.0.jar ...[0m
+2022.05.24 09:51:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc_2.12;1.5.7!zinc_2.12.jar (238ms)[0m
+2022.05.24 09:51:56 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.5.5/util-interface-1.5.5.jar ...[0m
+2022.05.24 09:51:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-interface;1.5.5!util-interface.jar (170ms)[0m
+2022.05.24 09:51:56 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.5.5/core-macros_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:56 ERROR 	[SUCCESSFUL ] org.jline#jline-builtins;3.19.0!jline-builtins.jar (204ms)[0m
+2022.05.24 09:51:56 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar ...[0m
+2022.05.24 09:51:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-apiinfo_2.12;1.5.7!zinc-apiinfo_2.12.jar (501ms)[0m
+2022.05.24 09:51:56 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.19.0/jline-terminal-jansi-3.19.0.jar ...[0m
+2022.05.24 09:51:56 ERROR 	[SUCCESSFUL ] org.jline#jline-reader;3.19.0!jline-reader.jar (320ms)[0m
+2022.05.24 09:51:56 ERROR downloading https://repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar ...[0m
+2022.05.24 09:51:57 ERROR 	[SUCCESSFUL ] org.jline#jline-terminal-jna;3.19.0!jline-terminal-jna.jar (165ms)[0m
+2022.05.24 09:51:57 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.14/scala-compiler-2.12.14.jar ...[0m
+2022.05.24 09:51:57 ERROR 	[SUCCESSFUL ] org.scala-sbt#core-macros_2.12;1.5.5!core-macros_2.12.jar (173ms)[0m
+2022.05.24 09:51:57 ERROR downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.jar ...[0m
+2022.05.24 09:51:57 ERROR 	[SUCCESSFUL ] org.jline#jline-terminal-jansi;3.19.0!jline-terminal-jansi.jar (249ms)[0m
+2022.05.24 09:51:57 ERROR downloading https://repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.6/file-tree-views-2.1.6.jar ...[0m
+2022.05.24 09:51:57 ERROR 	[SUCCESSFUL ] com.lmax#disruptor;3.4.2!disruptor.jar (260ms)[0m
+2022.05.24 09:51:57 ERROR downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar ...[0m
+2022.05.24 09:51:57 ERROR 	[SUCCESSFUL ] org.fusesource.jansi#jansi;2.1.0!jansi.jar (258ms)[0m
+2022.05.24 09:51:57 ERROR downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar ...[0m
+2022.05.24 09:51:57 ERROR 	[SUCCESSFUL ] com.swoval#file-tree-views;2.1.6!file-tree-views.jar (727ms)[0m
+2022.05.24 09:51:57 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0.jar ...[0m
+2022.05.24 09:51:58 ERROR 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-core;2.11.2!log4j-core.jar (3451ms)[0m
+2022.05.24 09:51:58 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.5.5/util-cache_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:58 ERROR 	[SUCCESSFUL ] org.jline#jline-style;3.19.0!jline-style.jar (257ms)[0m
+2022.05.24 09:51:58 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.jar ...[0m
+2022.05.24 09:51:58 ERROR 	[SUCCESSFUL ] net.java.dev.jna#jna-platform;5.5.0!jna-platform.jar (879ms)[0m
+2022.05.24 09:51:58 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.5.5/test-agent-1.5.5.jar ...[0m
+2022.05.24 09:51:58 ERROR 	[SUCCESSFUL ] com.eed3si9n#sjson-new-murmurhash_2.12;0.9.1!sjson-new-murmurhash_2.12.jar (182ms)[0m
+2022.05.24 09:51:58 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar ...[0m
+2022.05.24 09:51:58 ERROR 	[SUCCESSFUL ] org.scala-sbt#test-agent;1.5.5!test-agent.jar (176ms)[0m
+2022.05.24 09:51:58 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.5.7/compiler-bridge_2.12-1.5.7.jar ...[0m
+2022.05.24 09:51:58 ERROR 	[SUCCESSFUL ] org.scala-sbt#test-interface;1.0!test-interface.jar (211ms)[0m
+2022.05.24 09:51:58 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.5.7/zinc-classfile_2.12-1.5.7.jar ...[0m
+2022.05.24 09:51:58 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-bridge_2.12;1.5.7!compiler-bridge_2.12.jar (264ms)[0m
+2022.05.24 09:51:58 ERROR downloading https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar ...[0m
+2022.05.24 09:51:58 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-cache_2.12;1.5.5!util-cache_2.12.jar (536ms)[0m
+2022.05.24 09:51:58 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.5.0/gigahorse-okhttp_2.12-0.5.0.jar ...[0m
+2022.05.24 09:51:58 ERROR 	[SUCCESSFUL ] net.java.dev.jna#jna;5.5.0!jna.jar (1610ms)[0m
+2022.05.24 09:51:58 ERROR downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.7.0/okhttp-urlconnection-3.7.0.jar ...[0m
+2022.05.24 09:51:58 ERROR 	[SUCCESSFUL ] com.jcraft#jsch;0.1.54!jsch.jar (299ms)[0m
+2022.05.24 09:51:58 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.5.0/gigahorse-core_2.12-0.5.0.jar ...[0m
+2022.05.24 09:51:58 ERROR 	[SUCCESSFUL ] com.eed3si9n#gigahorse-okhttp_2.12;0.5.0!gigahorse-okhttp_2.12.jar (303ms)[0m
+2022.05.24 09:51:58 ERROR downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.2/okhttp-3.14.2.jar ...[0m
+2022.05.24 09:51:58 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classfile_2.12;1.5.7!zinc-classfile_2.12.jar (435ms)[0m
+2022.05.24 09:51:58 ERROR downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.0/ssl-config-core_2.12-0.4.0.jar ...[0m
+2022.05.24 09:51:58 ERROR 	[SUCCESSFUL ] com.squareup.okhttp3#okhttp-urlconnection;3.7.0!okhttp-urlconnection.jar (178ms)[0m
+2022.05.24 09:51:58 ERROR downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar ...[0m
+2022.05.24 09:51:59 ERROR 	[SUCCESSFUL ] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar (269ms)[0m
+2022.05.24 09:51:59 ERROR downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar ...[0m
+2022.05.24 09:51:59 ERROR 	[SUCCESSFUL ] com.eed3si9n#gigahorse-core_2.12;0.5.0!gigahorse-core_2.12.jar (435ms)[0m
+2022.05.24 09:51:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar ...[0m
+2022.05.24 09:51:59 ERROR 	[SUCCESSFUL ] com.squareup.okhttp3#okhttp;3.14.2!okhttp.jar (437ms)[0m
+2022.05.24 09:51:59 ERROR downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar ...[0m
+2022.05.24 09:51:59 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.14!scala-compiler.jar (2446ms)[0m
+2022.05.24 09:51:59 ERROR downloading https://repo1.maven.org/maven2/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar ...[0m
+2022.05.24 09:51:59 ERROR 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.26!slf4j-api.jar (258ms)[0m
+2022.05.24 09:51:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.5.7/zinc-core_2.12-1.5.7.jar ...[0m
+2022.05.24 09:51:59 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2!scala-parser-combinators_2.12.jar(bundle) (206ms)[0m
+2022.05.24 09:51:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.5.7/zinc-persist_2.12-1.5.7.jar ...[0m
+2022.05.24 09:51:59 ERROR 	[SUCCESSFUL ] com.squareup.okio#okio;1.17.2!okio.jar (142ms)[0m
+2022.05.24 09:51:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.5.7/zinc-compile-core_2.12-1.5.7.jar ...[0m
+2022.05.24 09:51:59 ERROR 	[SUCCESSFUL ] com.typesafe#config;1.3.3!config.jar(bundle) (282ms)[0m
+2022.05.24 09:51:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.5.7/zinc-persist-core-assembly-1.5.7.jar ...[0m
+2022.05.24 09:51:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile-core_2.12;1.5.7!zinc-compile-core_2.12.jar (222ms)[0m
+2022.05.24 09:51:59 ERROR downloading https://repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.jar ...[0m
+2022.05.24 09:51:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist_2.12;1.5.7!zinc-persist_2.12.jar (310ms)[0m
+2022.05.24 09:51:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar ...[0m
+2022.05.24 09:51:59 ERROR 	[SUCCESSFUL ] com.typesafe#ssl-config-core_2.12;0.4.0!ssl-config-core_2.12.jar(bundle) (1020ms)[0m
+2022.05.24 09:51:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.5.5/protocol_2.12-1.5.5.jar ...[0m
+2022.05.24 09:51:59 ERROR 	[SUCCESSFUL ] net.openhft#zero-allocation-hashing;0.10.1!zero-allocation-hashing.jar(bundle) (149ms)[0m
+2022.05.24 09:51:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/template-resolver/0.1/template-resolver-0.1.jar ...[0m
+2022.05.24 09:51:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#main_2.12;1.5.5!main_2.12.jar (6291ms)[0m
+2022.05.24 09:51:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.3.1/ipcsocket-1.3.1.jar ...[0m
+2022.05.24 09:51:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#sbinary_2.12;0.5.1!sbinary_2.12.jar (219ms)[0m
+2022.05.24 09:51:59 ERROR downloading https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.1/checker-qual-3.4.1.jar ...[0m
+2022.05.24 09:51:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#template-resolver;0.1!template-resolver.jar (144ms)[0m
+2022.05.24 09:51:59 ERROR downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0.jar ...[0m
+2022.05.24 09:52:00 ERROR 	[SUCCESSFUL ] com.google.errorprone#error_prone_annotations;2.4.0!error_prone_annotations.jar (152ms)[0m
+2022.05.24 09:52:00 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.4.2/scala-collection-compat_2.12-2.4.2.jar ...[0m
+2022.05.24 09:52:00 ERROR 	[SUCCESSFUL ] org.checkerframework#checker-qual;3.4.1!checker-qual.jar (236ms)[0m
+2022.05.24 09:52:00 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745/ivy-2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745.jar ...[0m
+2022.05.24 09:52:00 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-core_2.12;1.5.7!zinc-core_2.12.jar (939ms)[0m
+2022.05.24 09:52:00 ERROR 	[SUCCESSFUL ] org.scala-sbt.ipcsocket#ipcsocket;1.3.1!ipcsocket.jar (454ms)[0m
+2022.05.24 09:52:00 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-collection-compat_2.12;2.4.2!scala-collection-compat_2.12.jar (241ms)[0m
+2022.05.24 09:52:00 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist-core-assembly;1.5.7!zinc-persist-core-assembly.jar (1106ms)[0m
+2022.05.24 09:52:00 ERROR 	[SUCCESSFUL ] org.scala-sbt.ivy#ivy;2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745!ivy.jar (467ms)[0m
+2022.05.24 09:52:01 ERROR 	[SUCCESSFUL ] org.scala-sbt#protocol_2.12;1.5.5!protocol_2.12.jar (1331ms)[0m
+2022.05.24 09:52:01 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.14!scala-library.jar (7944ms)[0m
+2022.05.24 09:52:03 ERROR 	[SUCCESSFUL ] io.get-coursier#lm-coursier-shaded_2.12;2.0.8!lm-coursier-shaded_2.12.jar (8595ms)[0m
+2022.05.24 09:52:03 ERROR :: retrieving :: org.scala-sbt#boot-app[0m
+2022.05.24 09:52:03 ERROR 	confs: [default][0m
+2022.05.24 09:52:03 ERROR 	83 artifacts copied, 0 already retrieved[0m
+2022.05.24 09:52:03 ERROR [info] [launcher] getting Scala 2.12.14 (for sbt)...[0m
+2022.05.24 09:52:09 ERROR downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar ...[0m
+2022.05.24 09:52:09 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar ...[0m
+2022.05.24 09:52:09 ERROR downloading https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar ...[0m
+2022.05.24 09:52:09 ERROR 	[SUCCESSFUL ] org.fusesource.jansi#jansi;1.12!jansi.jar (168ms)[0m
+2022.05.24 09:52:09 ERROR 	[SUCCESSFUL ] jline#jline;2.14.6!jline.jar (307ms)[0m
+2022.05.24 09:52:09 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle) (362ms)[0m
+2022.05.24 09:52:09 ERROR :: retrieving :: org.scala-sbt#boot-scala[0m
+2022.05.24 09:52:09 ERROR 	confs: [default][0m
+2022.05.24 09:52:09 ERROR 	6 artifacts copied, 0 already retrieved[0m
+2022.05.24 09:52:11 ERROR WARNING: A terminally deprecated method in java.lang.System has been called[0m
+2022.05.24 09:52:11 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)[0m
+2022.05.24 09:52:11 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$[0m
+2022.05.24 09:52:11 ERROR WARNING: System::setSecurityManager will be removed in a future release[0m
+2022.05.24 09:52:11 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)[0m
+2022.05.24 09:52:11 INFO  [info] loading settings for project steve-build-build from metals.sbt ...[0m
+2022.05.24 09:52:12 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project[0m
+2022.05.24 09:52:19 INFO  [info] loading settings for project steve-build from metals.sbt ...[0m
+2022.05.24 09:52:19 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project[0m
+2022.05.24 09:52:19 INFO  skipping build import with status 'Dismissed'[0m
+2022.05.24 09:52:27 INFO  [success] Generated .bloop/steve-build.json[0m
+2022.05.24 09:52:27 INFO  [success] Total time: 8 s, completed May 24, 2022, 9:52:27 AM[0m
+2022.05.24 09:52:27 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.05.24 09:52:27 INFO  [info] set current project to root (in build file:/Users/egordultsev/dev/projects/scala/steve/)[0m
+2022.05.24 09:52:27 INFO  [success] Generated .bloop/root.json[0m
+2022.05.24 09:52:27 INFO  [success] Generated .bloop/root-test.json[0m
+2022.05.24 09:52:27 INFO  [warn] Removed stale /Users/egordultsev/dev/projects/scala/steve/.bloop/steve.json[0m
+2022.05.24 09:52:27 INFO  [warn] Removed stale /Users/egordultsev/dev/projects/scala/steve/.bloop/steve-test.json[0m
+2022.05.24 09:52:27 INFO  [success] Total time: 0 s, completed May 24, 2022, 9:52:27 AM[0m
+2022.05.24 09:52:27 INFO  time: ran 'sbt bloopInstall' in 1m28s[0m
+2022.05.24 09:52:27 INFO  Disconnecting from Bloop session...[0m
+2022.05.24 09:52:27 INFO  Shut down connection with build server.[0m
+2022.05.24 09:52:27 INFO  Shut down connection with build server.[0m
+2022.05.24 09:52:27 INFO  Attempting to connect to the build server...[0m
+2022.05.24 09:52:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.05.24 09:52:30 INFO  Attempting to connect to the build server...[0m
+2022.05.24 09:52:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.05.24 09:52:30 INFO  time: Connected to build server in 2.32s[0m
+2022.05.24 09:52:30 INFO  Connected to Build server: Bloop v1.5.0[0m
+2022.05.24 09:52:32 INFO  time: indexed workspace in 1.8s[0m
+2022.05.24 09:52:33 INFO  time: code lens generation in 1.5s[0m
+2022.05.24 09:54:35 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals13315969778491718083/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.05.24 09:54:35 ERROR WARNING: A terminally deprecated method in java.lang.System has been called[0m
+2022.05.24 09:54:35 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)[0m
+2022.05.24 09:54:35 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$[0m
+2022.05.24 09:54:35 ERROR WARNING: System::setSecurityManager will be removed in a future release[0m
+2022.05.24 09:54:35 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)[0m
+2022.05.24 09:54:35 INFO  [info] loading settings for project steve-build-build from metals.sbt ...[0m
+2022.05.24 09:54:35 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project[0m
+2022.05.24 09:54:37 INFO  [info] loading settings for project steve-build from metals.sbt ...[0m
+2022.05.24 09:54:37 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project[0m
+2022.05.24 09:54:37 INFO  [success] Generated .bloop/steve-build.json[0m
+2022.05.24 09:54:37 INFO  [success] Total time: 1 s, completed May 24, 2022, 9:54:37 AM[0m
+2022.05.24 09:54:38 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.05.24 09:54:38 INFO  [info] set current project to root (in build file:/Users/egordultsev/dev/projects/scala/steve/)[0m
+2022.05.24 09:54:38 INFO  [success] Generated .bloop/root.json[0m
+2022.05.24 09:54:38 INFO  [success] Generated .bloop/root-test.json[0m
+2022.05.24 09:54:38 INFO  [success] Total time: 0 s, completed May 24, 2022, 9:54:38 AM[0m
+2022.05.24 09:54:38 INFO  time: ran 'sbt bloopInstall' in 3.62s[0m
+2022.05.24 09:54:38 INFO  Disconnecting from Bloop session...[0m
+2022.05.24 09:54:38 INFO  Shut down connection with build server.[0m
+2022.05.24 09:54:38 INFO  Shut down connection with build server.[0m
+2022.05.24 09:54:38 INFO  Attempting to connect to the build server...[0m
+2022.05.24 09:54:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.05.24 09:54:38 INFO  Attempting to connect to the build server...[0m
+2022.05.24 09:54:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.05.24 09:54:38 INFO  time: Connected to build server in 38ms[0m
+2022.05.24 09:54:38 INFO  Connected to Build server: Bloop v1.5.0[0m
+2022.05.24 09:54:38 INFO  time: indexed workspace in 0.75s[0m
+2022.05.24 09:55:06 WARN  no build target for: /Users/egordultsev/dev/projects/scala/steve/project/metals.sbt[0m
+2022.05.24 09:55:20 WARN  no build target for: /Users/egordultsev/dev/projects/scala/steve/project/project/metals.sbt[0m
+2022.05.24 09:57:19 INFO  skipping build import with status 'Installed'[0m
+2022.05.24 09:57:36 INFO  skipping build import with status 'Installed'[0m
+2022.05.24 09:59:00 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals7552594333002388832/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.05.24 09:59:01 ERROR WARNING: A terminally deprecated method in java.lang.System has been called[0m
+2022.05.24 09:59:01 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)[0m
+2022.05.24 09:59:01 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$[0m
+2022.05.24 09:59:01 ERROR WARNING: System::setSecurityManager will be removed in a future release[0m
+2022.05.24 09:59:01 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)[0m
+2022.05.24 09:59:01 INFO  [info] loading settings for project steve-build-build from metals.sbt ...[0m
+2022.05.24 09:59:01 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project[0m
+2022.05.24 09:59:02 INFO  [info] loading settings for project steve-build from metals.sbt ...[0m
+2022.05.24 09:59:02 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project[0m
+2022.05.24 09:59:02 INFO  [success] Generated .bloop/steve-build.json[0m
+2022.05.24 09:59:02 INFO  [success] Total time: 1 s, completed May 24, 2022, 9:59:03 AM[0m
+2022.05.24 09:59:04 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.05.24 09:59:04 INFO  [info] set current project to root (in build file:/Users/egordultsev/dev/projects/scala/steve/)[0m
+2022.05.24 09:59:04 INFO  [success] Generated .bloop/root-test.json[0m
+2022.05.24 09:59:04 INFO  [success] Generated .bloop/root.json[0m
+2022.05.24 09:59:04 INFO  [success] Generated .bloop/client.json[0m
+2022.05.24 09:59:04 INFO  [success] Generated .bloop/server.json[0m
+2022.05.24 09:59:04 INFO  [success] Generated .bloop/client-test.json[0m
+2022.05.24 09:59:04 INFO  [success] Generated .bloop/server-test.json[0m
+2022.05.24 09:59:04 INFO  [success] Total time: 0 s, completed May 24, 2022, 9:59:04 AM[0m
+2022.05.24 09:59:04 INFO  time: ran 'sbt bloopInstall' in 4.26s[0m
+2022.05.24 09:59:04 INFO  Disconnecting from Bloop session...[0m
+2022.05.24 09:59:04 INFO  Shut down connection with build server.[0m
+2022.05.24 09:59:04 INFO  Shut down connection with build server.[0m
+2022.05.24 09:59:04 INFO  Attempting to connect to the build server...[0m
+2022.05.24 09:59:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.05.24 09:59:04 INFO  Attempting to connect to the build server...[0m
+2022.05.24 09:59:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.05.24 09:59:04 INFO  time: Connected to build server in 59ms[0m
+2022.05.24 09:59:04 INFO  Connected to Build server: Bloop v1.5.0[0m
+2022.05.24 09:59:04 INFO  time: indexed workspace in 0.83s[0m
+2022.05.24 10:01:21 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals17296244010796326371/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.05.24 10:01:22 ERROR WARNING: A terminally deprecated method in java.lang.System has been called[0m
+2022.05.24 10:01:22 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)[0m
+2022.05.24 10:01:22 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$[0m
+2022.05.24 10:01:22 ERROR WARNING: System::setSecurityManager will be removed in a future release[0m
+2022.05.24 10:01:22 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)[0m
+2022.05.24 10:01:22 INFO  [info] loading settings for project steve-build-build from metals.sbt ...[0m
+2022.05.24 10:01:22 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project[0m
+2022.05.24 10:01:23 INFO  [info] loading settings for project steve-build from metals.sbt ...[0m
+2022.05.24 10:01:23 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project[0m
+2022.05.24 10:01:23 INFO  [success] Generated .bloop/steve-build.json[0m
+2022.05.24 10:01:23 INFO  [success] Total time: 1 s, completed May 24, 2022, 10:01:24 AM[0m
+2022.05.24 10:01:24 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.05.24 10:01:24 INFO  [info] set current project to root (in build file:/Users/egordultsev/dev/projects/scala/steve/)[0m
+2022.05.24 10:01:24 INFO  [success] Generated .bloop/root.json[0m
+2022.05.24 10:01:24 INFO  [success] Generated .bloop/client.json[0m
+2022.05.24 10:01:24 INFO  [success] Generated .bloop/server.json[0m
+2022.05.24 10:01:24 INFO  [success] Generated .bloop/root-test.json[0m
+2022.05.24 10:01:24 INFO  [success] Generated .bloop/client-test.json[0m
+2022.05.24 10:01:24 INFO  [success] Generated .bloop/server-test.json[0m
+2022.05.24 10:01:24 INFO  [success] Total time: 0 s, completed May 24, 2022, 10:01:25 AM[0m
+2022.05.24 10:01:25 INFO  time: ran 'sbt bloopInstall' in 3.83s[0m
+2022.05.24 10:01:25 INFO  Disconnecting from Bloop session...[0m
+2022.05.24 10:01:25 INFO  Shut down connection with build server.[0m
+2022.05.24 10:01:25 INFO  Shut down connection with build server.[0m
+2022.05.24 10:01:25 INFO  Attempting to connect to the build server...[0m
+2022.05.24 10:01:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.05.24 10:01:25 INFO  Attempting to connect to the build server...[0m
+2022.05.24 10:01:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.05.24 10:01:25 INFO  time: Connected to build server in 38ms[0m
+2022.05.24 10:01:25 INFO  Connected to Build server: Bloop v1.5.0[0m
+2022.05.24 10:01:25 INFO  time: indexed workspace in 0.83s[0m
+2022.05.24 10:10:54 INFO  shutting down Metals[0m
+2022.05.24 10:10:54 INFO  Shut down connection with build server.[0m
+2022.05.24 10:10:54 INFO  Shut down connection with build server.[0m
+2022.05.24 10:11:07 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/lsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.05.24 10:11:08 INFO  logging to file /Users/egordultsev/dev/projects/scala/steve/.metals/metals.log
+2022.05.24 10:11:08 INFO  Started: Metals version 0.11.5 in workspace '/Users/egordultsev/dev/projects/scala/steve' for client Visual Studio Code 1.67.2.
+2022.05.24 10:11:09 INFO  time: initialize in 1.21s
+2022.05.24 10:11:09 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.24 10:11:09 INFO  Attempting to connect to the build server...
+2022.05.24 10:11:09 INFO  skipping build import with status 'Installed'
+2022.05.24 10:11:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:11:09 INFO  Attempting to connect to the build server...
+2022.05.24 10:11:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:11:09 INFO  time: Connected to build server in 0.22s
+2022.05.24 10:11:09 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 10:11:11 INFO  time: indexed workspace in 1.48s
+May 24, 2022 10:11:16 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.05.24 10:11:45 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals9703128539468536375/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.24 10:11:45 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2022.05.24 10:11:45 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)
+2022.05.24 10:11:45 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2022.05.24 10:11:45 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2022.05.24 10:11:46 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)
+2022.05.24 10:11:46 INFO  [info] loading settings for project steve-build-build from metals.sbt ...
+2022.05.24 10:11:46 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project
+2022.05.24 10:11:47 INFO  [info] loading settings for project steve-build from metals.sbt ...
+2022.05.24 10:11:47 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project
+2022.05.24 10:11:47 INFO  [success] Generated .bloop/steve-build.json
+2022.05.24 10:11:47 INFO  [success] Total time: 1 s, completed May 24, 2022, 10:11:47 AM
+2022.05.24 10:11:48 INFO  [info] loading settings for project root from build.sbt ...
+2022.05.24 10:11:48 INFO  [info] set current project to root (in build file:/Users/egordultsev/dev/projects/scala/steve/)
+2022.05.24 10:11:48 INFO  [success] Generated .bloop/root.json
+2022.05.24 10:11:48 INFO  [success] Generated .bloop/root-test.json
+2022.05.24 10:12:02 INFO  [success] Generated .bloop/client.json
+2022.05.24 10:12:02 INFO  [success] Generated .bloop/client-test.json
+2022.05.24 10:12:02 INFO  [success] Generated .bloop/server-test.json
+2022.05.24 10:12:02 INFO  [success] Generated .bloop/server.json
+2022.05.24 10:12:02 INFO  [success] Total time: 13 s, completed May 24, 2022, 10:12:02 AM
+2022.05.24 10:12:02 INFO  time: ran 'sbt bloopInstall' in 16s
+2022.05.24 10:12:02 INFO  Disconnecting from Bloop session...
+2022.05.24 10:12:02 INFO  Shut down connection with build server.
+2022.05.24 10:12:02 INFO  Shut down connection with build server.
+2022.05.24 10:12:02 INFO  Attempting to connect to the build server...
+2022.05.24 10:12:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:12:02 INFO  Attempting to connect to the build server...
+2022.05.24 10:12:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:12:02 INFO  time: Connected to build server in 48ms
+2022.05.24 10:12:02 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 10:12:04 ERROR Failed to fetch mtags for 3.1.0-RC2
+Error downloading org.scalameta:mtags_3.1.0-RC2:0.11.5
+  not found: /Users/egordultsev/.ivy2/local/org.scalameta/mtags_3.1.0-RC2/0.11.5/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.0-RC2/0.11.5/mtags_3.1.0-RC2-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.0-RC2/0.11.5/mtags_3.1.0-RC2-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.0-RC2/0.11.5/mtags_3.1.0-RC2-0.11.5.pom
+2022.05.24 10:12:04 ERROR Failed to fetch mtags for 3.1.0-RC2
+Error downloading org.scalameta:mtags_3.1.0-RC2:0.11.5
+  not found: /Users/egordultsev/.ivy2/local/org.scalameta/mtags_3.1.0-RC2/0.11.5/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.0-RC2/0.11.5/mtags_3.1.0-RC2-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.0-RC2/0.11.5/mtags_3.1.0-RC2-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.0-RC2/0.11.5/mtags_3.1.0-RC2-0.11.5.pom
+2022.05.24 10:12:05 ERROR Failed to fetch mtags for 3.1.0-RC2
+Error downloading org.scalameta:mtags_3.1.0-RC2:0.11.5
+  not found: /Users/egordultsev/.ivy2/local/org.scalameta/mtags_3.1.0-RC2/0.11.5/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.0-RC2/0.11.5/mtags_3.1.0-RC2-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.0-RC2/0.11.5/mtags_3.1.0-RC2-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.0-RC2/0.11.5/mtags_3.1.0-RC2-0.11.5.pom
+2022.05.24 10:12:05 INFO  No mtags for 3.1.0-RC2.
+2022.05.24 10:12:05 INFO  No mtags for 3.1.0-RC2.
+2022.05.24 10:12:05 INFO  No mtags for 3.1.0-RC2.
+2022.05.24 10:12:05 INFO  No mtags for 3.1.0-RC2.
+2022.05.24 10:12:05 INFO  No mtags for 3.1.0-RC2.
+2022.05.24 10:12:05 INFO  time: indexed workspace in 4.53s
+2022.05.24 10:12:08 INFO  time: code lens generation in 1.45s
+2022.05.24 10:12:34 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals8878348184294969422/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+May 24, 2022 10:12:35 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 24, 2022 10:12:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: 
+  associatedFile_= inapplicable for <none>
+     while compiling: jar:file:///Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.5.5/main_2.12-1.5.5-sources.jar!/sbt/Project.scala
+        during phase: globalPhase=<no phase>, enteringPhase=namer
+     library version: version 2.12.14
+    compiler version: version 2.12.14
+  reconstructed args: -deprecation -Wconf:cat=unused-nowarn:s -Wconf:cat=deprecation:w -Wconf:cat=deprecation:ws -Wconf:cat=feature:ws -Wconf:cat=optimizer:ws -classpath /Users/egordultsev/dev/projects/scala/steve/project/.bloop/steve-build/bloop-bsp-clients-classes/classes-Metals-u5tk6MtKToqIf-JvRY_fNg==:/Users/egordultsev/Library/Caches/bloop/semanticdb/com.sourcegraph.semanticdb-javac.0.7.4/semanticdb-javac-0.7.4.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.5/sbt-1.5.5.jar:/Users/egordultsev/.sbt/boot/scala-2.12.14/lib/scala-library.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.0/sbt-bloop-1.5.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.5.5/main_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.5.1/io_2.12-1.5.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.5.5/logic_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.5.5/actions_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.5.5/main-settings_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.5.5/run_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.5.5/command_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.5.5/collections_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.5.5/scripted-plugin_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.5.5/zinc-lm-integration_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.5.5/util-logging_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.3.3/launcher-interface-1.3.3.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.5/caffeine-2.8.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.0.8/lm-coursier-shaded_2.12-2.0.8.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.11.2/log4j-slf4j-impl-2.11.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.5.3/librarymanagement-core_2.12-1.5.3.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.5.3/librarymanagement-ivy_2.12-1.5.3.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.5.7/compiler-interface-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.5.7/zinc-compile_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.6/file-tree-views-2.1.6.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.5.5/util-relation_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.5.5/completion_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.5.5/task-system_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.5.5/tasks_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.5.5/testing_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.5.5/util-tracking_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.9.1/sjson-new-scalajson_2.12-0.9.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.5.7/zinc-classpath_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.5.7/zinc-apiinfo_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.5.7/zinc_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.5.5/core-macros_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.5.5/util-cache_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.5.5/util-control_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.5.5/protocol_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.1/sjson-new-core_2.12-0.9.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/template-resolver/0.1/template-resolver-0.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.5.5/util-position_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.5.7/zinc-compile-core_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.5.5/util-interface-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.19.0/jline-terminal-jansi-3.19.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar:/Users/egordultsev/.sbt/boot/scala-2.12.14/lib/scala-reflect.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.1/checker-qual-3.4.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.4.2/scala-collection-compat_2.12-2.4.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/Users/egordultsev/.sbt/boot/scala-2.12.14/lib/scala-compiler.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.5.0/gigahorse-okhttp_2.12-0.5.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.7.0/okhttp-urlconnection-3.7.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745/ivy-2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-builtins/3.19.0/jline-builtins-3.19.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-agent/1.5.5/test-agent-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/0.9.1/shaded-jawn-parser_2.12-0.9.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.5.7/compiler-bridge_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.5.7/zinc-classfile_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.5.7/zinc-core_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.5.7/zinc-persist_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.3.1/ipcsocket-1.3.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.5.0/gigahorse-core_2.12-0.5.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.2/okhttp-3.14.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.5.7/zinc-persist-core-assembly-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.0/ssl-config-core_2.12-0.4.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar -Xplugin-require:semanticdb -Yrangepos -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified -Ypresentation-any-thread
+
+  last tree to typer: EmptyTree
+       tree position: <unknown>
+            tree tpe: <notype>
+              symbol: null
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+
+scala.reflect.internal.FatalError: 
+  associatedFile_= inapplicable for <none>
+     while compiling: jar:file:///Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.5.5/main_2.12-1.5.5-sources.jar!/sbt/Project.scala
+        during phase: globalPhase=<no phase>, enteringPhase=namer
+     library version: version 2.12.14
+    compiler version: version 2.12.14
+  reconstructed args: -deprecation -Wconf:cat=unused-nowarn:s -Wconf:cat=deprecation:w -Wconf:cat=deprecation:ws -Wconf:cat=feature:ws -Wconf:cat=optimizer:ws -classpath /Users/egordultsev/dev/projects/scala/steve/project/.bloop/steve-build/bloop-bsp-clients-classes/classes-Metals-u5tk6MtKToqIf-JvRY_fNg==:/Users/egordultsev/Library/Caches/bloop/semanticdb/com.sourcegraph.semanticdb-javac.0.7.4/semanticdb-javac-0.7.4.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.5/sbt-1.5.5.jar:/Users/egordultsev/.sbt/boot/scala-2.12.14/lib/scala-library.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.0/sbt-bloop-1.5.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.5.5/main_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.5.1/io_2.12-1.5.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.5.5/logic_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.5.5/actions_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.5.5/main-settings_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.5.5/run_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.5.5/command_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.5.5/collections_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.5.5/scripted-plugin_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.5.5/zinc-lm-integration_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.5.5/util-logging_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.3.3/launcher-interface-1.3.3.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.5/caffeine-2.8.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.0.8/lm-coursier-shaded_2.12-2.0.8.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.11.2/log4j-slf4j-impl-2.11.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.5.3/librarymanagement-core_2.12-1.5.3.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.5.3/librarymanagement-ivy_2.12-1.5.3.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.5.7/compiler-interface-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.5.7/zinc-compile_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.6/file-tree-views-2.1.6.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.5.5/util-relation_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.5.5/completion_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.5.5/task-system_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.5.5/tasks_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.5.5/testing_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.5.5/util-tracking_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.9.1/sjson-new-scalajson_2.12-0.9.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.5.7/zinc-classpath_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.5.7/zinc-apiinfo_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.5.7/zinc_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.5.5/core-macros_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.5.5/util-cache_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.5.5/util-control_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.5.5/protocol_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.1/sjson-new-core_2.12-0.9.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/template-resolver/0.1/template-resolver-0.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.5.5/util-position_2.12-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.5.7/zinc-compile-core_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.5.5/util-interface-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.19.0/jline-terminal-jansi-3.19.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar:/Users/egordultsev/.sbt/boot/scala-2.12.14/lib/scala-reflect.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.1/checker-qual-3.4.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.4.2/scala-collection-compat_2.12-2.4.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/Users/egordultsev/.sbt/boot/scala-2.12.14/lib/scala-compiler.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.5.0/gigahorse-okhttp_2.12-0.5.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.7.0/okhttp-urlconnection-3.7.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745/ivy-2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-builtins/3.19.0/jline-builtins-3.19.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-agent/1.5.5/test-agent-1.5.5.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/0.9.1/shaded-jawn-parser_2.12-0.9.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.5.7/compiler-bridge_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.5.7/zinc-classfile_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.5.7/zinc-core_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.5.7/zinc-persist_2.12-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.3.1/ipcsocket-1.3.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.5.0/gigahorse-core_2.12-0.5.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.2/okhttp-3.14.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.5.7/zinc-persist-core-assembly-1.5.7.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.0/ssl-config-core_2.12-0.4.0.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar:/Users/egordultsev/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar -Xplugin-require:semanticdb -Yrangepos -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified -Ypresentation-any-thread
+
+  last tree to typer: EmptyTree
+       tree position: <unknown>
+            tree tpe: <notype>
+              symbol: null
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:69)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:65)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:28)
+	at scala.reflect.internal.Symbols$Symbol.associatedFile_$eq(Symbols.scala:2592)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterModuleSymbol(Namers.scala:487)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterModuleDef(Namers.scala:447)
+	at scala.tools.nsc.typechecker.Namers$Namer.dispatch$1(Namers.scala:291)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:302)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:479)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:478)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:280)
+	at scala.tools.nsc.typechecker.Namers$Namer.$anonfun$enterSyms$1(Namers.scala:496)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSyms(Namers.scala:495)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterPackage(Namers.scala:766)
+	at scala.tools.nsc.typechecker.Namers$Namer.dispatch$1(Namers.scala:289)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:302)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:479)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:478)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:280)
+	at scala.tools.nsc.typechecker.Analyzer$namerFactory$$anon$1.apply(Analyzer.scala:48)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:453)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$3(Global.scala:1650)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$2(Global.scala:1650)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$2$adapted(Global.scala:1649)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1649)
+	at scala.tools.nsc.interactive.Global.parseAndEnter(Global.scala:654)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:664)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:33)
+
+2022.05.24 10:12:35 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2022.05.24 10:12:35 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)
+2022.05.24 10:12:35 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2022.05.24 10:12:35 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2022.05.24 10:12:35 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)
+2022.05.24 10:12:35 INFO  [info] loading settings for project steve-build-build from metals.sbt ...
+2022.05.24 10:12:35 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project
+2022.05.24 10:12:36 INFO  [info] loading settings for project steve-build from metals.sbt ...
+2022.05.24 10:12:36 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project
+2022.05.24 10:12:36 INFO  [success] Generated .bloop/steve-build.json
+2022.05.24 10:12:36 INFO  [success] Total time: 1 s, completed May 24, 2022, 10:12:37 AM
+2022.05.24 10:12:38 INFO  [info] loading settings for project root from build.sbt ...
+2022.05.24 10:12:38 INFO  [info] set current project to root (in build file:/Users/egordultsev/dev/projects/scala/steve/)
+2022.05.24 10:12:38 INFO  [success] Generated .bloop/root.json
+2022.05.24 10:12:38 INFO  [success] Generated .bloop/root-test.json
+2022.05.24 10:12:47 INFO  [success] Generated .bloop/server-test.json
+2022.05.24 10:12:47 INFO  [success] Generated .bloop/server.json
+2022.05.24 10:12:47 INFO  [success] Generated .bloop/client-test.json
+2022.05.24 10:12:47 INFO  [success] Generated .bloop/client.json
+2022.05.24 10:12:47 INFO  [success] Total time: 9 s, completed May 24, 2022, 10:12:47 AM
+2022.05.24 10:12:47 INFO  time: ran 'sbt bloopInstall' in 12s
+2022.05.24 10:12:47 INFO  Disconnecting from Bloop session...
+2022.05.24 10:12:47 INFO  Shut down connection with build server.
+2022.05.24 10:12:47 INFO  Shut down connection with build server.
+2022.05.24 10:12:47 INFO  Attempting to connect to the build server...
+2022.05.24 10:12:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:12:47 INFO  Attempting to connect to the build server...
+2022.05.24 10:12:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:12:47 INFO  time: Connected to build server in 48ms
+2022.05.24 10:12:47 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 10:12:49 INFO  time: indexed workspace in 1.66s
+2022.05.24 10:12:51 INFO  time: code lens generation in 1.21s
+2022.05.24 10:13:56 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals6916848904459985463/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.24 10:13:56 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2022.05.24 10:13:56 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)
+2022.05.24 10:13:56 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2022.05.24 10:13:56 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2022.05.24 10:13:56 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)
+2022.05.24 10:13:56 INFO  [info] loading settings for project steve-build-build from metals.sbt ...
+2022.05.24 10:13:56 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project
+2022.05.24 10:13:57 INFO  [info] loading settings for project steve-build from metals.sbt ...
+2022.05.24 10:13:57 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project
+2022.05.24 10:13:57 INFO  [success] Generated .bloop/steve-build.json
+2022.05.24 10:13:57 INFO  [success] Total time: 1 s, completed May 24, 2022, 10:13:58 AM
+2022.05.24 10:13:59 INFO  [info] loading settings for project root from build.sbt ...
+2022.05.24 10:13:59 INFO  [info] set current project to root (in build file:/Users/egordultsev/dev/projects/scala/steve/)
+2022.05.24 10:13:59 INFO  [success] Generated .bloop/root-test.json
+2022.05.24 10:13:59 INFO  [success] Generated .bloop/client.json
+2022.05.24 10:13:59 INFO  [success] Generated .bloop/client-test.json
+2022.05.24 10:13:59 INFO  [success] Generated .bloop/root.json
+2022.05.24 10:13:59 INFO  [success] Generated .bloop/server.json
+2022.05.24 10:13:59 INFO  [success] Generated .bloop/server-test.json
+2022.05.24 10:13:59 INFO  [success] Total time: 0 s, completed May 24, 2022, 10:13:59 AM
+2022.05.24 10:14:00 INFO  time: ran 'sbt bloopInstall' in 3.96s
+2022.05.24 10:14:00 INFO  Disconnecting from Bloop session...
+2022.05.24 10:14:00 INFO  Shut down connection with build server.
+2022.05.24 10:14:00 INFO  Shut down connection with build server.
+2022.05.24 10:14:00 INFO  Attempting to connect to the build server...
+2022.05.24 10:14:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:14:00 INFO  Attempting to connect to the build server...
+2022.05.24 10:14:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:14:00 INFO  time: Connected to build server in 36ms
+2022.05.24 10:14:00 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 10:14:00 INFO  time: indexed workspace in 0.78s
+2022.05.24 10:14:57 INFO  compiling server (1 scala source)
+2022.05.24 10:14:58 INFO  time: compiled server in 1.26s
+2022.05.24 10:15:44 INFO  compiling server (1 scala source)
+2022.05.24 10:15:44 INFO  time: compiled server in 0.16s
+2022.05.24 10:15:59 WARN  no build target for: /Users/egordultsev/dev/projects/scala/steve/project/plugins.sbt
+2022.05.24 10:15:59 WARN  no build target for: /Users/egordultsev/dev/projects/scala/steve/project/plugins.sbt
+2022.05.24 10:15:59 INFO  skipping build import with status 'Installed'
+2022.05.24 10:17:15 WARN  no build target for: /Users/egordultsev/dev/projects/scala/steve/project/plugins.sbt
+2022.05.24 10:17:17 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals10618701822063351124/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.24 10:17:17 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2022.05.24 10:17:17 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)
+2022.05.24 10:17:17 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2022.05.24 10:17:17 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2022.05.24 10:17:18 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)
+2022.05.24 10:17:18 INFO  [info] loading settings for project steve-build-build-build from metals.sbt ...
+2022.05.24 10:17:19 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project/project
+2022.05.24 10:17:19 INFO  [info] loading settings for project steve-build-build from metals.sbt ...
+2022.05.24 10:17:19 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project
+2022.05.24 10:17:21 INFO  [success] Generated .bloop/steve-build-build.json
+2022.05.24 10:17:21 INFO  [success] Total time: 1 s, completed May 24, 2022, 10:17:21 AM
+2022.05.24 10:17:21 INFO  [info] loading settings for project steve-build from metals.sbt,plugins.sbt ...
+2022.05.24 10:17:21 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project
+2022.05.24 10:17:22 INFO  [success] Generated .bloop/steve-build.json
+2022.05.24 10:17:22 INFO  [success] Total time: 1 s, completed May 24, 2022, 10:17:22 AM
+2022.05.24 10:17:22 INFO  [info] loading settings for project root from build.sbt ...
+2022.05.24 10:17:22 INFO  [info] set current project to root (in build file:/Users/egordultsev/dev/projects/scala/steve/)
+2022.05.24 10:17:22 INFO  [success] Generated .bloop/root-test.json
+2022.05.24 10:17:22 INFO  [success] Generated .bloop/server.json
+2022.05.24 10:17:22 INFO  [success] Generated .bloop/client-test.json
+2022.05.24 10:17:22 INFO  [success] Generated .bloop/server-test.json
+2022.05.24 10:17:22 INFO  [success] Generated .bloop/client.json
+2022.05.24 10:17:22 INFO  [success] Generated .bloop/root.json
+2022.05.24 10:17:22 INFO  [success] Total time: 0 s, completed May 24, 2022, 10:17:23 AM
+2022.05.24 10:17:23 INFO  time: ran 'sbt bloopInstall' in 6.12s
+2022.05.24 10:17:23 INFO  Disconnecting from Bloop session...
+2022.05.24 10:17:23 INFO  Shut down connection with build server.
+2022.05.24 10:17:23 INFO  Shut down connection with build server.
+2022.05.24 10:17:23 INFO  Attempting to connect to the build server...
+2022.05.24 10:17:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:17:23 INFO  Attempting to connect to the build server...
+2022.05.24 10:17:23 INFO  Attempting to connect to the build server...
+2022.05.24 10:17:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:17:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:17:23 INFO  time: Connected to build server in 55ms
+2022.05.24 10:17:23 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 10:17:23 INFO  time: indexed workspace in 0.76s
+2022.05.24 10:17:29 INFO  compiling server (1 scala source)
+2022.05.24 10:17:29 INFO  time: compiled server in 60ms
+2022.05.24 10:22:28 INFO  skipping build import with status 'Requested'
+2022.05.24 10:24:39 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals11701192849177847949/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.24 10:24:40 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2022.05.24 10:24:40 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)
+2022.05.24 10:24:40 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2022.05.24 10:24:40 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2022.05.24 10:24:40 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)
+2022.05.24 10:24:40 INFO  [info] loading settings for project steve-build-build-build from metals.sbt ...
+2022.05.24 10:24:40 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project/project
+2022.05.24 10:24:41 INFO  [info] loading settings for project steve-build-build from metals.sbt ...
+2022.05.24 10:24:41 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project
+2022.05.24 10:24:41 INFO  [success] Generated .bloop/steve-build-build.json
+2022.05.24 10:24:41 INFO  [success] Total time: 1 s, completed May 24, 2022, 10:24:42 AM
+2022.05.24 10:24:41 INFO  [info] loading settings for project steve-build from metals.sbt,plugins.sbt ...
+2022.05.24 10:24:41 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project
+2022.05.24 10:24:42 INFO  [success] Generated .bloop/steve-build.json
+2022.05.24 10:24:42 INFO  [success] Total time: 0 s, completed May 24, 2022, 10:24:42 AM
+2022.05.24 10:24:42 INFO  [info] loading settings for project root from build.sbt ...
+2022.05.24 10:24:42 INFO  [info] set current project to root (in build file:/Users/egordultsev/dev/projects/scala/steve/)
+2022.05.24 10:24:43 INFO  [success] Generated .bloop/root-test.json
+2022.05.24 10:24:43 INFO  [success] Generated .bloop/server.json
+2022.05.24 10:24:43 INFO  [success] Generated .bloop/client.json
+2022.05.24 10:24:43 INFO  [success] Generated .bloop/client-test.json
+2022.05.24 10:24:43 INFO  [success] Generated .bloop/server-test.json
+2022.05.24 10:24:43 INFO  [success] Generated .bloop/root.json
+2022.05.24 10:24:43 INFO  [success] Total time: 0 s, completed May 24, 2022, 10:24:43 AM
+2022.05.24 10:24:43 INFO  time: ran 'sbt bloopInstall' in 4.38s
+2022.05.24 10:24:43 INFO  Disconnecting from Bloop session...
+2022.05.24 10:24:43 INFO  Shut down connection with build server.
+2022.05.24 10:24:43 INFO  Shut down connection with build server.
+2022.05.24 10:24:43 INFO  Shut down connection with build server.
+2022.05.24 10:24:43 INFO  Attempting to connect to the build server...
+2022.05.24 10:24:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:24:43 INFO  Attempting to connect to the build server...
+2022.05.24 10:24:43 INFO  Attempting to connect to the build server...
+2022.05.24 10:24:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:24:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:24:43 INFO  time: Connected to build server in 50ms
+2022.05.24 10:24:43 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 10:24:44 INFO  time: indexed workspace in 0.8s
+2022.05.24 10:24:44 INFO  compiling server (1 scala source)
+2022.05.24 10:24:44 INFO  time: compiled server in 0.86s
+2022.05.24 10:27:01 INFO  skipping build import with status 'Requested'
+2022.05.24 10:28:07 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals16688604199374168202/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.24 10:28:07 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2022.05.24 10:28:07 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)
+2022.05.24 10:28:07 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2022.05.24 10:28:07 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2022.05.24 10:28:07 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)
+2022.05.24 10:28:07 INFO  [info] loading settings for project steve-build-build-build from metals.sbt ...
+2022.05.24 10:28:07 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project/project
+2022.05.24 10:28:09 INFO  [info] loading settings for project steve-build-build from metals.sbt ...
+2022.05.24 10:28:09 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project
+2022.05.24 10:28:09 INFO  [success] Generated .bloop/steve-build-build.json
+2022.05.24 10:28:09 INFO  [success] Total time: 1 s, completed May 24, 2022, 10:28:10 AM
+2022.05.24 10:28:10 INFO  [info] loading settings for project steve-build from metals.sbt,plugins.sbt ...
+2022.05.24 10:28:10 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project
+2022.05.24 10:28:10 INFO  [success] Generated .bloop/steve-build.json
+2022.05.24 10:28:10 INFO  [success] Total time: 0 s, completed May 24, 2022, 10:28:10 AM
+2022.05.24 10:28:11 INFO  [info] loading settings for project root from build.sbt ...
+2022.05.24 10:28:11 INFO  [info] set current project to root (in build file:/Users/egordultsev/dev/projects/scala/steve/)
+2022.05.24 10:28:11 INFO  [success] Generated .bloop/root-test.json
+2022.05.24 10:28:11 INFO  [success] Generated .bloop/root.json
+2022.05.24 10:28:18 INFO  [success] Generated .bloop/server-test.json
+2022.05.24 10:28:18 INFO  [success] Generated .bloop/server.json
+2022.05.24 10:28:18 INFO  [success] Generated .bloop/client.json
+2022.05.24 10:28:18 INFO  [success] Generated .bloop/client-test.json
+2022.05.24 10:28:18 INFO  [success] Total time: 7 s, completed May 24, 2022, 10:28:18 AM
+2022.05.24 10:28:18 INFO  time: ran 'sbt bloopInstall' in 11s
+2022.05.24 10:28:18 INFO  Disconnecting from Bloop session...
+2022.05.24 10:28:18 INFO  Shut down connection with build server.
+2022.05.24 10:28:18 INFO  Shut down connection with build server.
+2022.05.24 10:28:18 INFO  Shut down connection with build server.
+2022.05.24 10:28:18 INFO  Attempting to connect to the build server...
+2022.05.24 10:28:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:28:18 INFO  Attempting to connect to the build server...
+2022.05.24 10:28:18 INFO  Attempting to connect to the build server...
+2022.05.24 10:28:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:28:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:28:18 INFO  time: Connected to build server in 53ms
+2022.05.24 10:28:18 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 10:28:18 INFO  time: indexed workspace in 0.87s
+2022.05.24 10:28:19 INFO  compiling server (1 scala source)
+2022.05.24 10:28:19 INFO  time: compiled server in 0.78s
+May 24, 2022 10:29:27 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1036, count -1, length 1246
+2022.05.24 10:31:46 INFO  skipping build import with status 'Requested'
+May 24, 2022 10:31:55 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1095, count -1, length 1305
+2022.05.24 10:32:06 INFO  skipping build import with status 'Dismissed'
+2022.05.24 10:32:06 INFO  running '/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/hb06rlm52qq38kc3t3d6vm9w0000gn/T/metals17528262486745265380/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.24 10:32:06 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2022.05.24 10:32:06 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/egordultsev/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)
+2022.05.24 10:32:06 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2022.05.24 10:32:06 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2022.05.24 10:32:07 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)
+2022.05.24 10:32:07 INFO  [info] loading settings for project steve-build-build-build from metals.sbt ...
+2022.05.24 10:32:07 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project/project
+2022.05.24 10:32:08 INFO  [info] loading settings for project steve-build-build from metals.sbt ...
+2022.05.24 10:32:08 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project/project
+2022.05.24 10:32:08 INFO  [success] Generated .bloop/steve-build-build.json
+2022.05.24 10:32:08 INFO  [success] Total time: 1 s, completed May 24, 2022, 10:32:08 AM
+2022.05.24 10:32:08 INFO  [info] loading settings for project steve-build from metals.sbt,plugins.sbt ...
+2022.05.24 10:32:08 INFO  [info] loading project definition from /Users/egordultsev/dev/projects/scala/steve/project
+2022.05.24 10:32:09 INFO  [success] Generated .bloop/steve-build.json
+2022.05.24 10:32:09 INFO  [success] Total time: 0 s, completed May 24, 2022, 10:32:09 AM
+2022.05.24 10:32:09 INFO  [info] loading settings for project root from build.sbt ...
+2022.05.24 10:32:10 INFO  [info] set current project to root (in build file:/Users/egordultsev/dev/projects/scala/steve/)
+2022.05.24 10:32:10 INFO  [success] Generated .bloop/root-test.json
+2022.05.24 10:32:10 INFO  [success] Generated .bloop/root.json
+2022.05.24 10:32:11 INFO  [success] Generated .bloop/server.json
+2022.05.24 10:32:11 INFO  [success] Generated .bloop/server-test.json
+2022.05.24 10:32:11 INFO  [success] Generated .bloop/client-test.json
+2022.05.24 10:32:11 INFO  [success] Generated .bloop/client.json
+2022.05.24 10:32:11 INFO  [success] Total time: 1 s, completed May 24, 2022, 10:32:11 AM
+2022.05.24 10:32:11 INFO  time: ran 'sbt bloopInstall' in 5.75s
+2022.05.24 10:32:11 INFO  Disconnecting from Bloop session...
+2022.05.24 10:32:11 INFO  Shut down connection with build server.
+2022.05.24 10:32:11 INFO  Shut down connection with build server.
+2022.05.24 10:32:11 INFO  Shut down connection with build server.
+2022.05.24 10:32:11 INFO  Attempting to connect to the build server...
+2022.05.24 10:32:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:32:12 INFO  Attempting to connect to the build server...
+2022.05.24 10:32:12 INFO  Attempting to connect to the build server...
+2022.05.24 10:32:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:32:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/egordultsev/dev/projects/scala/steve/project/.metals/bsp.trace.json or /Users/egordultsev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.24 10:32:12 INFO  time: Connected to build server in 50ms
+2022.05.24 10:32:12 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.24 10:32:12 INFO  time: indexed workspace in 0.81s
+2022.05.24 10:32:11 INFO  compiling server (1 scala source)
+2022.05.24 10:32:13 INFO  time: compiled server in 0.79s
+2022.05.24 10:33:46 INFO  compiling server (1 scala source)
+2022.05.24 10:33:46 INFO  time: compiled server in 0.8s
+2022.05.24 10:34:14 INFO  compiling server (1 scala source)
+2022.05.24 10:34:14 INFO  time: compiled server in 47ms
+May 24, 2022 10:34:42 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 24, 2022 10:35:05 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 24, 2022 10:35:16 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 24, 2022 10:35:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 24, 2022 10:35:34 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.05.24 10:35:38 INFO  compiling server (1 scala source)
+2022.05.24 10:35:38 INFO  time: compiled server in 0.13s
+2022.05.24 10:40:35 INFO  compiling server (1 scala source)
+2022.05.24 10:40:35 INFO  time: compiled server in 0.29s
+2022.05.24 10:40:53 INFO  compiling server (1 scala source)
+2022.05.24 10:40:53 INFO  time: compiled server in 92ms
+2022.05.24 10:40:54 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:40:54 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:40:55 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:40:56 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:40:56 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:40:57 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:40:58 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:40:59 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:01 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:02 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:02 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:03 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:04 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:10 INFO  compiling server (1 scala source)
+2022.05.24 10:41:10 INFO  time: compiled server in 57ms
+2022.05.24 10:41:10 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:11 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:13 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:13 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:14 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:14 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:20 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:26 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:32 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:33 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:37 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:38 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:40 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:41:41 INFO  compiling server (1 scala source)
+2022.05.24 10:41:41 INFO  time: compiled server in 0.39s
+2022.05.24 10:43:07 INFO  compiling server (1 scala source)
+2022.05.24 10:43:07 INFO  time: compiled server in 0.19s
+2022.05.24 10:43:18 INFO  compiling server (1 scala source)
+2022.05.24 10:43:18 INFO  time: compiled server in 87ms
+2022.05.24 10:46:01 INFO  compiling server (1 scala source)
+2022.05.24 10:46:01 INFO  time: compiled server in 0.11s
+2022.05.24 10:46:22 INFO  compiling server (1 scala source)
+2022.05.24 10:46:22 INFO  time: compiled server in 0.48s
+2022.05.24 10:46:55 INFO  compiling server (1 scala source)
+2022.05.24 10:46:55 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:46:55 INFO  time: compiled server in 0.41s
+2022.05.24 10:46:55 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:46:55 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:46:56 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:46:59 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:47:00 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:47:01 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:47:01 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:47:02 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:47:02 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:47:03 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:47:04 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:47:04 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:47:05 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:47:06 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:47:07 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:47:07 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:47:09 INFO  compiling server (1 scala source)
+2022.05.24 10:47:09 INFO  time: compiled server in 0.45s
+2022.05.24 10:48:29 INFO  compiling server (1 scala source)
+2022.05.24 10:48:29 INFO  time: compiled server in 0.29s
+2022.05.24 10:48:39 INFO  compiling server (1 scala source)
+2022.05.24 10:48:39 INFO  time: compiled server in 0.21s
+2022.05.24 10:48:57 INFO  compiling server (1 scala source)
+2022.05.24 10:48:57 INFO  time: compiled server in 0.18s
+2022.05.24 10:49:24 INFO  compiling server (1 scala source)
+2022.05.24 10:49:24 INFO  time: compiled server in 0.11s
+2022.05.24 10:49:24 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:26 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:26 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:30 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:30 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:33 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:34 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:35 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:36 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:36 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:37 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:36 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:38 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:39 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:39 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:39 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:40 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:40 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:41 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:40 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:42 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:43 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:47 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:48 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:48 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:49 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:51 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:54 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:55 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:55 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:56 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:59 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:49:59 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:00 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:01 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:01 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:02 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:03 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:03 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:03 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:05 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:07 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:08 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:09 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:09 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:10 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:11 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:12 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:14 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:14 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:14 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:15 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:15 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:16 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:17 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:18 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:19 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:19 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:19 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:21 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:21 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:22 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:22 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:22 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:24 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:25 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:26 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:27 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:27 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:28 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:28 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:29 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:50:29 WARN  Could not load snapshot text for /Users/egordultsev/dev/projects/scala/steve/server/src/main/scala/steve/Main.scala
+2022.05.24 10:51:46 INFO  compiling server (1 scala source)
+2022.05.24 10:51:46 INFO  time: compiled server in 0.38s
+May 24, 2022 11:10:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fegordultsev%2Fdev%2Fprojects%2Fscala%2Fsteve%2Fbuild.sbt:25: error: identifier expected but val found
+val root = project
+^
+file%3A%2F%2F%2FUsers%2Fegordultsev%2Fdev%2Fprojects%2Fscala%2Fsteve%2Fbuild.sbt:25: error: identifier expected but val found
+val root = project
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:360)
+	at scala.meta.internal.parsers.ScalametaParser.name(ScalametaParser.scala:1079)
+	at scala.meta.internal.parsers.ScalametaParser.termName(ScalametaParser.scala:1082)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$selector$1(ScalametaParser.scala:1138)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.selector(ScalametaParser.scala:1138)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2169)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2148)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$5(ScalametaParser.scala:2093)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2093)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:334)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:344)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2043)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2041)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2025)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2007)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1568)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1457)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1339)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1367)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:3265)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:3251)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3215)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3200)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4047)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4042)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:145)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4108)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4324)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4324)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4279)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4277)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:203)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2022.05.24 11:10:26 INFO  skipping build import with status 'Dismissed'
+2022.05.24 11:11:10 INFO  skipping build import with status 'Dismissed'
+2022.05.24 11:11:54 INFO  skipping build import with status 'Dismissed'
+2022.05.24 11:20:56 INFO  compiling server (1 scala source)
+2022.05.24 11:20:56 INFO  time: compiled server in 0.28s
