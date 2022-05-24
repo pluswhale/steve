@@ -1038,3 +1038,5 @@ val root = project
 2022.05.24 11:11:54 INFO  skipping build import with status 'Dismissed'
 2022.05.24 11:20:56 INFO  compiling server (1 scala source)
 2022.05.24 11:20:56 INFO  time: compiled server in 0.28s
+May 24, 2022 11:42:39 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
